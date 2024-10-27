@@ -1,6 +1,8 @@
 import flet as ft
 
-def main():
-    ...
+def main(page: ft.Page):
+    page.title("Primeira Aula")
+    page.update()
 
-ft.app(target=main)
+if __name__ == "__main__":
+    ft.app(target=main)
